@@ -1,0 +1,46 @@
+@import "_reset";
+//@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+//@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Gemstones&display=swap');
+
+@font-face {
+	font-family: 'GOST';
+	src: url('../fonts/GOST.eot');
+	src: local('☺'), url('../fonts/GOST.woff') format('woff'), url('../fonts/GOST.ttf') format('truetype'), url('../fonts/GOST.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'GOST';
+	src: url('../fonts/GOST_0.eot');
+	src: local('☺'), url('../fonts/GOST_0.woff') format('woff'), url('../fonts/GOST_0.ttf') format('truetype'), url('../fonts/GOST_0.svg') format('svg');
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'GOST';
+	src: url('../fonts/____ ___ _ _________.eot');
+	src: local('☺'), url('../fonts/____ ___ _ _________.woff') format('woff'), url('../fonts/____ ___ _ _________.ttf') format('truetype'), url('../fonts/____ ___ _ _________.svg') format('svg');
+	font-weight: normal;
+	font-style: italic;
+}
+
+
+ .text {
+    font-family: 'GOST';
+    font-size: 24px;
+    line-height: 35px;
+    p{margin: 0px 0px 30px 10px;}
+    //font-style: italic;
+    font-weight: normal;
+}
+
+.textor {
+    font-style: italic;
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+    line-height: 35px;
+    p{margin: 0px 0px 30px 10px;}
+}
